@@ -10,6 +10,7 @@ cache:
 node_js: stable
 
 install:
+  - npm install pnpm -g
   - pnpm install -D
   - cd ./test/template
   - pnpm install -D
