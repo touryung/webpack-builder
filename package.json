@@ -6,7 +6,7 @@
   "scripts": {
     "eslint": "eslint ./lib --fix",
     "test:smoke": "node ./test/smoke/index.js",
-    "test:unit": "mocha ./test/unit/index.js",
+    "test:unit": "_mocha ./test/unit/index.js",
     "cover": "nyc pnpm run test:unit"
   },
   "keywords": [],
