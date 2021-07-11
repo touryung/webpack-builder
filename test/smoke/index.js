@@ -25,7 +25,7 @@ rimraf("./dist", () => {
       })
     );
 
-    console.log("🚀 构建成功，开始测试");
+    console.log("🚀 构建成功，开始测试 🚀");
 
     mocha.addFile(path.join(__dirname, "html.test.js"));
     mocha.addFile(path.join(__dirname, "css-js.test.js"));
