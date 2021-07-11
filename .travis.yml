@@ -11,10 +11,10 @@ node_js: stable
 
 install:
   - npm install pnpm -g
-  - pnpm install -D
+  - pnpm install
   - cd ./test/template
   - pnpm install -D
   - cd ../../
 
 scripts:
-  - pnpm test:unit
+  - pnpm cover
