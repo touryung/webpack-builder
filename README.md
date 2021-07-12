@@ -1,2 +1,2 @@
 # webpack-builder
-A webpack builder
+A Webpack Configuration Repository
